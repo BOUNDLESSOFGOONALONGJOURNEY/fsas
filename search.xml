@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>无涯的远行祝大家新年快乐</title>
+      <link href="/2023/01/22/%E6%97%A0%E6%B6%AF%E7%9A%84%E8%BF%9C%E8%A1%8C%E7%A5%9D%E5%A4%A7%E5%AE%B6%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E3%80%82/"/>
+      <url>/2023/01/22/%E6%97%A0%E6%B6%AF%E7%9A%84%E8%BF%9C%E8%A1%8C%E7%A5%9D%E5%A4%A7%E5%AE%B6%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%E3%80%82/</url>
+      
+        <content type="html"><![CDATA[<p>新生活、新气象，年增岁月人增寿，快马加鞭搞建设，乐在其中。衷心祝愿您：兔年吉祥！兔年走鸿运！兔年展宏图！牛气冲云天！新生活、新气象，年增岁月人增寿，快马加鞭搞建设，乐在其中。衷心祝愿您：兔年吉祥！兔年走鸿运！兔年展宏图！牛气冲云天！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何写hexo博客</title>
+      <link href="/2023/01/10/%E5%A6%82%E4%BD%95%E5%86%99hexo%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2023/01/10/%E5%A6%82%E4%BD%95%E5%86%99hexo%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何写博客"><a href="#如何写博客" class="headerlink" title="如何写博客"></a>如何写博客</h2><h3 id="1-创建文章"><a href="#1-创建文章" class="headerlink" title="1.创建文章"></a>1.创建文章</h3><p> <code>hexo new （文章名称）</code>  #在hexo根目录打开cmd命令窗口 直接输入命令即可创建文章<br>hexo generate  #生成新的静态网页博客，只生成变动类容不生成全部</p><h3 id="2-写文章"><a href="#2-写文章" class="headerlink" title="2.写文章"></a>2.写文章</h3><p>#文章开头写法和分类写法<br><code>---</code> #开头标<br><code>title:</code> #标题<br><code>date: 2013/7/13 20:46:25</code>  # 文件创建的时间<br><code>author:</code># 作者<br><code>tags:</code>#标签（注意如果没有启动标签页可分类页，此设置可能无效）<br>   <code> - 标签1</code>  #标签1<br>   <code> - 标签1</code>  #标签2<br>   <code> - 标签1</code>  #标签3<br>……<br>   <code> -标签xxx #标签X</code><br><code>categories: </code> #分类（注意如果没有启动标签页可分类页，此设置可能无效）<br>   <code> - 作业</code> #类别1<br>   <code> - 成果</code>  #类别2<br>………<br>  <code> - 类别xxx </code>#类别x<br><code>---</code> #结束标<br>#以上就是开头全部写法<br>#下面是文章写法：</p><h3 id="2-链接引用"><a href="#2-链接引用" class="headerlink" title="2.链接引用"></a>2.链接引用</h3><p>[文字]   (链接)就是文字引用链接</p><h3 id="3-视频和图片引用"><a href="#3-视频和图片引用" class="headerlink" title="3.视频和图片引用"></a>3.视频和图片引用</h3><p><a href="https://zhuanlan.zhihu.com/p/104996801#:~:text=Hexo%E6%9C%89%E5%A4%9A%E7%A7%8D%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B0%86%E5%9B%BE%E7%89%87%E5%AD%98%E6%94%BE%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%BC%95%E7%94%A8%E6%88%96%E8%80%85%E5%B0%86%E5%9B%BE%E7%89%87%E6%94%BE%E5%9C%A8CDN%E4%B8%8A%E5%BC%95%E7%94%A8%E3%80%82%20%E5%BD%93Hexo%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%8F%AA%E7%94%A8%E5%88%B0%E5%B0%91%E9%87%8F%E5%9B%BE%E7%89%87%E6%97%B6%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B0%86%E5%9B%BE%E7%89%87%E7%BB%9F%E4%B8%80%E6%94%BE%E5%9C%A8source%2Fimages%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%AD%EF%BC%8C%E9%80%9A%E8%BF%87markdown%E8%AF%AD%E6%B3%95%E8%AE%BF%E9%97%AE%E5%AE%83%E4%BB%AC%E3%80%82%20source%2Fimages%2Fimage.jpg%20%21,%5B%20%28%E5%8F%AF%E4%BB%A5%E5%86%99%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E7%9A%84%E6%8F%8F%E8%BF%B0%29%5D%20%28%2Fimages%2Fimage.jpg%29%20%E5%9B%BE%E7%89%87%E6%97%A2%E5%8F%AF%E4%BB%A5%E5%9C%A8%E9%A6%96%E9%A1%B5%E5%86%85%E5%AE%B9%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%88%B0%EF%BC%8C%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E6%96%87%E7%AB%A0%E6%AD%A3%E6%96%87%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%88%B0%E3%80%82">如何引用图片和视频详细请参考知乎supersu大佬的写法</a></p><h3 id="4-代码高亮"><a href="#4-代码高亮" class="headerlink" title="4.代码高亮"></a>4.代码高亮</h3><div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;code&gt;代码&lt;/code&gt;</span><br></pre></td></tr></table></figure></div><h3 id="5-插入代码块"><a href="#5-插入代码块" class="headerlink" title="5.插入代码块"></a>5.插入代码块</h3> <div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ``` bash</span><br><span class="line">$  内容</span><br><span class="line">$ ```</span><br></pre></td></tr></table></figure></div><p>hexo博客还有更多有趣写法，篇幅原因详细请参考hexo官方说明文档。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 如何写博客 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>飞机大作战，来玩会小游戏吧（自己写的）</title>
+      <link href="/2023/01/06/%E6%9D%A5%E7%8E%A9%E4%BC%9A%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%90%A7%E3%80%82%EF%BC%88%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%EF%BC%89/"/>
+      <url>/2023/01/06/%E6%9D%A5%E7%8E%A9%E4%BC%9A%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%90%A7%E3%80%82%EF%BC%88%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>点击飞机大作战即可游玩:<a href="https://www.wodeshouyezhanshi.cn/%E9%A3%9E%E6%9C%BA.html">飞机大作战</a> 详细原理后面再讲。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作业 </category>
+          
+          <category> 成果 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 个人开发 </tag>
+            
+            <tag> 学校作业 </tag>
+            
+            <tag> 小游戏开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建完成</title>
+      <link href="/2023/01/06/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/"/>
+      <url>/2023/01/06/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</url>
+      
+        <content type="html"><![CDATA[<p>你好这是我第一个博客。网站成立于2023年1月6日。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> github </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/01/05/hello-world/"/>
+      <url>/2023/01/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-wrap" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
