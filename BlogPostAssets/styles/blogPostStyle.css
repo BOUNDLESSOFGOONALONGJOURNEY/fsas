@@ -14,7 +14,7 @@
 	padding-left: 2%;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	color: rgba(146,146,146,1.00);
+/*	color: rgba(146,146,146,1.00);*/
 }
 .ef a{
 	text-decoration: none;
@@ -35,7 +35,7 @@
 	padding-right: 2%;
 	width: 68%;
 	float: left;
-	color: rgba(146,146,146,1.00);
+/*	color: rgba(146,146,146,1.00);*/
 }
 header nav a {
 	/* Links in header */
@@ -55,7 +55,7 @@ header nav a {
 #content #mainContent #bannerImage {
 	/*Container for main banner image */
 	width: 100%;
-	background-color: rgba(208,207,207,1.00);
+/*	background-color: rgba(208,207,207,1.00);*/
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
@@ -153,7 +153,7 @@ nav ul li a {
 	/* Footer bar at the bottom of the page */
 	height: 18px;
 	clear: both;
-	background-color: rgba(208,207,207,1.00);
+/*	background-color: rgba(208,207,207,1.00);*/
 	width: 100%;
 }
 footer {
