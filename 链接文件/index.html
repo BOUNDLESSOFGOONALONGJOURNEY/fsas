@@ -5,20 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于无涯的远行</title>
+    <title>关于我</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	  <script src="./assets/js/wow.min.js"></script>
+      <script>
+              new WOW().init();
+      </script>
 </head>
 
 <body>
+
     <div class="main">
+<div class="fanhui" style="z-index: 999;">
+	<div class="dropdown">
+  <button class="dropbtn">快速导航</button>
+  <div class="dropdown-content">
+    <a href="#"><button class="btn-57" onclick="window.location.href='../indexs.html'">返回博客</button></a>
+    <a href="#"><button class="btn-57" onclick="window.location.href='申明.html'">网站申明</button></a>
+    <a href="#"><button class="btn-57" onclick="window.location.href='#'">关于我</button></a>
+  </div>
+</div>
+</div>
         <div class="container">
             <div class="section self">
                 <div class="contain">
-                    <img src="../img/1.jpg" alt="user.jpg" class="user-img">
-                    <p class="title">无涯的远行</p>
-                    <p class="sub-title">做自己想做，想自己所想</p>
-                    <p class="text">All For One.</p>
+                    <div class="wow animate__animated animate__rotateIn"><img src="../img/1.jpg" alt="user.jpg" class="user-img"></div>
+                    <p class="title  wow animate__animated animate__flipInX">无涯的远行</p>
+                    <p class="sub-title wow animate__animated animate__delay-1s animate__flipInX">能够让自己的心静下来，人生没有过不去的坎。</p>
+                    <p class="text wow animate__animated animate__delay-2s animate__flipInX">Can let their mind calm down, there is no life can not be overcome.</p>
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
                 </div>
             </div>
@@ -26,135 +42,75 @@
                 <div class="contain">
                     <div class="skill-pane">
                         <p class="title">前端</p>
-                        <p class="text">HTML5 + CSS3 + JavaScript</p>
-                        <p class="text">BootStrap4 / BootStrap5</p>
-                        <p class="text">Vue3 + ELement Plus + TypeScript</p>
+                        <p class="text">HTML5 + CSS3 + JavaScript+Vue2</p>                   
                         <p class="hr"></p>
-                        <p class="title">后端</p>
-                        <p class="text">Java / SpringBoot</p>
-                        <p class="text">PHP / ThinkPHP</p>
-                        <p class="text">Node.js</p>
+                        <p class="title">办公软件</p>
+                        <p class="text">Word+Excel+PowerPoint+OneNote</p>
                         <p class="hr"></p>
-                        <p class="title">游戏制作</p>
-                        <p class="text">Unity3d / C#</p>
-                        <p class="text">Blender</p>
+						<p class="title">数据库</p>
+                        <p class="text">Mysql+Sql Server</p>
                         <p class="hr"></p>
-                        <p class="title">音乐</p>
-                        <p class="text">FL Studio</p>
+
                     </div>
-                    <img src="assets/images/skill-font.png" alt="skill-font" class="skill-font">
+					<div class=""><img src="assets/images/skill-font.png" alt="skill-font" class="skill-font"></div>           
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
                 </div>
             </div>
+			    <div class="section contact">
+                <div class="contain">
+					<p class="title" style="backdrop-filter: blur(20px); border-radius: 20px;color:#FFFFFF;">联系方式</p>
+                    
+                    <div class="contact-pane">
+                        <div class="contact-item title">
+                            <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3272375782"><img src="assets/images/tim.png" alt="tim.png"></a>
+                            <p>QQ</p>
+                        </div>
+                        
+            
+          
+                        <div class="contact-item">
+                            <a href="https://github.com/BOUNDLESSOFGOONALONGJOURNEY" target="_blank"><img src="assets/images/github.png"
+                                    alt="github.png"></a>
+                            <p>GitHub</p>
+                        </div>
+                        <div class="contact-item">
+                            <a href="https://blog.csdn.net/qq_52738492" target="_blank"><img
+                                    src="assets/images/csdn.png" alt="csdn.png"></a>
+                            <p>CSDN</p>
+                        </div>
+                        <div class="contact-item">
+                            <a href="mailto:3272375782@qq.com" target="_blank"><img src="assets/images/ACGN.png"
+                                    alt="ACGN.png"></a>
+                            <p>邮箱</p>
+                        </div>
+						
+                    </div>
+
+					<a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
+                </div>
+            </div>
+
             <div class="section time-line">
                 <div class="contain">
-                    <ul class="time-ul">
-                        <li>
-                            <div class="time-card">
-                                <p class="title">2017 - 2018</p>
-                                <p class="text">喜欢玩 Minecraft 想开发 Mod</p>
-                                <p class="text">初二初次阅读 Java 入门到入土书籍</p>
-                                <p class="text">但那时候贪玩就没有继续学习</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="time-card">
-                                <p class="title">2018 - 2021</p>
-                                <p class="text">高中读了一个职校</p>
-                                <p class="text">开始了我的编程之旅</p>
-                                <p class="text">学习前端知识，使用 PHP 制作网页</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="time-card">
-                                <p class="title">2021 - 2077</p>
-                                <p class="text">考上了一个还不错的大学</p>
-                                <p class="text">会努力坚持自己的梦想</p>
-                                <p class="text">未知的未来...</p>
-                            </div>
-                        </li>
-                    </ul>
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
                 </div>
             </div>
             <div class="section hobby">
                 <div class="contain">
-                    <div class="hobby-card left">
-                        <img src="assets/images/和泉纱雾.jpg" alt="和泉纱雾.png" class="art">
-                        <p class="title">GAME</p>
-                        <p class="sub-title">游戏/单机/多人</p>
-                        <p class="text">最喜欢玩的《Minecraft》</p>
-                        <p class="text">最想玩的《机甲类游戏》</p>
-                        <p class="text">有创作游戏的想法</p>
-                    </div>
-                    <div class="hobby-card mid">
-                        <img src="assets/images/古河渚.png" alt="古河渚.png" class="art">
-                        <p class="title">ACG</p>
-                        <p class="sub-title">动漫/漫画/轻小说</p>
-                        <p class="text">入坑作《Clannad》</p>
-                        <p class="text">无论今后遇到什么事情,请不要后悔与我相遇。</p>
-                        <p class="text">听潮鸣潮起潮落，看人生人来人往。</p>
-                    </div>
-                    <div class="hobby-card right">
-                        <img src="assets/images/小鸟游六花.png" alt="小鸟游六花.png" class="art">
-                        <p class="title">Music</p>
-                        <p class="sub-title">音乐/乐器/Midi</p>
-                        <p class="text">最喜欢的乐器 钢琴</p>
-                        <p class="text">想制作 Future Bass 音乐</p>
-                        <p class="text">世界太大，生命这样短。要把它过得尽量像自己想要的那个样子。</p>
-                    </div>
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
                 </div>
             </div>
             <div class="section contact">
-                <div class="contain">
-                    <p class="title">联系方式</p>
-                    <div class="contact-pane">
-                        <div class="contact-item">
-                            <a href="#"><img src="assets/images/tim.png" alt="tim.png"></a>
-                            <p>QQ</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=vFFwNiDH0KwSidBozDL2xMVG8bRBh9Bo&authKey=fABM9Vx6PSYpCpSrghZURZk1wqT7bXHIpOf14qvhQPx2F6cNdDvY12ydiF%2F9F85B&noverify=0&group_code=854197159"
-                                target="_blank"><img src="assets/images/Web.png" alt="Web.png"></a>
-                            <p>Web 技术交流群</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=p8LM_4Z6sYC8yiXaFXVU9qOraTOk2HhP&authKey=geCuGgBdEMbPflwHJ1UBB0VEurCpWF96hps%2FEDc%2B%2BAyeD%2FndQPH%2FPZY0qJPG18Za&noverify=0&group_code=417414639"
-                                target="_blank"><img src="assets/images/M-I_Studio.png" alt="M-I_Studio.png"></a>
-                            <p>M-I Studio 闲聊群</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="https://space.bilibili.com/51110915" target="_blank"><img
-                                    src="assets/images/bilibili.png" alt="bilibili.png"></a>
-                            <p>bilibili</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="https://github.com/baobaoJK" target="_blank"><img src="assets/images/github.png"
-                                    alt="github.png"></a>
-                            <p>GitHub</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="https://gitee.com/baobao_JK" target="_blank"><img src="assets/images/gitee.png"
-                                    alt="gitee.png"></a>
-                            <p>Gitee</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="https://blog.csdn.net/qq_29023593" target="_blank"><img
-                                    src="assets/images/csdn.png" alt="csdn.png"></a>
-                            <p>CSDN</p>
-                        </div>
-                        <div class="contact-item">
-                            <a href="https://www.cnblogs.com/KSaMar" target="_blank"><img src="assets/images/ACGN.png"
-                                    alt="ACGN.png"></a>
-                            <p>博客园</p>
-                        </div>
-                    </div>
-                    <div class="footer">
-                        <p class="copy">Copyright © 2023-2023 M-I Studio. All Rights Reserved.</p>
-                        <p class="studio">M-I Studio 版权所有</p>
+                <div class="contain" style="width: 50rem;height: 14rem; border-radius: 60px; font-size: 30px; color: rgb(0,32,237);backdrop-filter: blur(20px);">
+					<div class="footer">
+						<p class="studio">本网站已经在风雨中运行了<span id="sitetime"  style="color:#00FF07;"></p>
+					</div>
+                     <div class="footer">
+                        <p class="copy">Copyright © 2024 无涯的远行</p>
+                        <p class="studio">无涯的远行 版权所有</p>
                     </div>
                 </div>
+				
             </div>
         </div>
 
@@ -165,6 +121,7 @@
                 <li></li>
                 <li></li>
                 <li></li>
+				<li></li>
             </ul>
             <div class="bar"></div>
         </div>
@@ -173,5 +130,87 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/index.js"></script>
-
+<script language=javascript>
+    function siteTime(){
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth()+1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+        var t1 = Date.UTC(2023,01,05,00,00,00); //北京时间2017-09-16 00:00:00创建网站的时间
+        var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+        var diff = t2-t1;
+        var diffYears = Math.floor(diff/years);
+        var diffDays = Math.floor((diff/days)-diffYears*365);
+        var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+        var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+        var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+        document.getElementById("sitetime").innerHTML=+diffYears+"年"+diffDays+"天"+diffHours+"时"+diffMinutes+"分钟"+diffSeconds+"秒";
+    }
+    siteTime();
+</script>
+<script>
+  const draggable = document.querySelector('.fanhui');
+  let active = false;
+  let currentX;
+  let currentY;
+  let initialX;
+  let initialY;
+  let xOffset = 0;
+  let yOffset = 0;
+ 
+  draggable.addEventListener('mousedown', dragStart, false);
+  document.addEventListener('mouseup', dragEnd, false);
+  document.addEventListener('mousemove', drag, false);
+ 
+  function dragStart(e) {
+    initialX = e.clientX - xOffset;
+    initialY = e.clientY - yOffset;
+ 
+    if (e.target === draggable) {
+      active = true;
+    }
+  }
+ 
+  function dragEnd(e) {
+    initialX = currentX;
+    initialY = currentY;
+ 
+    active = false;
+  }
+ 
+  function drag(e) {
+    if (active) {
+      e.preventDefault();
+      currentX = e.clientX - initialX;
+      currentY = e.clientY - initialY;
+ 
+      xOffset = currentX;
+      yOffset = currentY;
+ 
+      setTranslate(currentX, currentY, draggable);
+    }
+  }
+ 
+  function setTranslate(xPos, yPos, el) {
+    el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
+  }
+</script>
+	
 </html>
