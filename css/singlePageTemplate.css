@@ -21,7 +21,7 @@ body {
 /* Navigation */
 header {
 	border-radius:100px 100px 0px 0px ;
-outline: none;
+	outline: none;
 	width: 100%;
 	height: 5%;
 	background-color: #52bad5;
@@ -82,6 +82,7 @@ ul li:hover a {
 .hero {
 	background-color: #B3B3B3;
 	background-image: url("../素材/wallhaven-9mjoy1_1479x572.png");
+	background-size: 100% 150%;
 	background-repeat:no-repeat;
 	padding-top: 150px;
 	padding-bottom: 20px;
@@ -132,9 +133,8 @@ ul li:hover a {
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	position: relative；
-	/* [disabled]min-width: 400px;
-*/
+	position: relative;
+	/* [disabled]min-width: 400px;*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
@@ -294,13 +294,11 @@ ul.cloud {
   align-items: center;
   justify-content: center;
   line-height: 2.5rem;
-  height: 300px;
-  width: 600px;
+  height: 12rem;
+  width: 39rem;
   position: absolute;
-	top: 115px;
-	left: 436px;
-	
-	
+	top: 7rem;
+	left: 28rem;
 }
 ul.cloud a {
 
