@@ -130,7 +130,23 @@
 		</div>
 	</div>
 	<!--end-->
-	<iframe src="./indexs.html"></iframe>
+	<iframe id="reportFrame" src="./indexs.html"></iframe>
+	
+	<script type="text/javascript">
+		var type = navigator.appName;
+		if (type == "Netscape") {
+			var lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+		} else {
+			var lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+		};
+		var lang = lang.substr(0, 2);//获取浏览器配置语言前两位
+		if (lang == "zh") {
+			document.getElementById("reportFrame").src = "http://cn.tagh.top/indexst.html";//中文网
+		} else {
+
+			document.getElementById("reportFrame").src = "https://wodeshouyezhanshi.cn/indexst.html";//英文网
+		};
+	</script>
 	<!--noscript-->
 	<noscript>
 		<style>
