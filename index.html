@@ -7,15 +7,15 @@
 	<meta name="keywords" content="无涯的远行,个人博客,无涯的远行个人博客,简单技术交流分享">
 	<meta name="description" content="无涯的远行个人博客网站，主打的就是一个技术分享展示。无涯的远行欢迎你的到来">
 	<meta name="author" content="无涯的远行">
-	
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="referrer" content="no-referrer-when-downgrade">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="renderer" content="webkit|ie-stand|ie-comp">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="referrer" content="no-referrer-when-downgrade">
 
 
 	<title>无涯的远行-个人博客ヾ(≧▽≦*)o</title>
@@ -133,6 +133,12 @@
 </head>
 
 <body>
+	<script>
+		var title = document.title;
+		document.addEventListener('visibilitychange', function (event) {
+			document.title = document.hidden ? '👀人呢? ~ 快回来 ~ ╥﹏╥...' : title
+		}, false)
+	</script>
 	<!--html-->
 	<div class="loaderbg">
 		<div class="spinner">
@@ -142,7 +148,7 @@
 			<div class="double rect4"></div>
 			<div class="double rect5"></div>
 			<p id="speak" class="container">站长没钱啦，加载很慢的辣 ...（*￣０￣）ノ[等等我…]。<br>正在加载中请稍后....</p>
-			
+
 		</div>
 	</div>
 	<!--end-->
@@ -158,18 +164,18 @@
 	<!--百度统计-->
 	<script>
 		var _hmt = _hmt || [];
-		(function() {
-		  var hm = document.createElement("script");
-		  hm.src = "https://hm.baidu.com/hm.js?13baee8e0b56e127774782e5e2801747";
-		  var s = document.getElementsByTagName("script")[0]; 
-		  s.parentNode.insertBefore(hm, s);
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?13baee8e0b56e127774782e5e2801747";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
 		})();
-		</script>
+	</script>
 	<!--加载时间-->
 	<script type="text/javascript">
 		/*页面加载完成之后隐藏loading*/
-		$(window).on('load',function () {
-		$(".loaderbg").hide(0);
+		$(window).on('load', function () {
+			$(".loaderbg").hide(0);
 		});
 	</script>
 </body>
