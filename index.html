@@ -133,13 +133,15 @@
 </head>
 
 <body>
+	<!-- 网页标题(标签切换更改标题内容) -->
 	<script>
 		var title = document.title;
 		document.addEventListener('visibilitychange', function (event) {
 			document.title = document.hidden ? '👀人呢? ~ 快回来 ~ ╥﹏╥...' : title
 		}, false)
 	</script>
-	<!--html-->
+
+	<!--html iframe-->
 	<div class="loaderbg">
 		<div class="spinner">
 			<div class="double rect1"></div>
@@ -151,8 +153,25 @@
 
 		</div>
 	</div>
-	<!--end-->
-	<iframe src="./indexx.html"></iframe>
+
+	<!--iframe-->
+	<iframe id="reportFrame" src="https://wodeshouyezhanshi.cn/indexx.html"></iframe>
+
+	<script type="text/javascript">
+		var type = navigator.appName;
+		if (type == "Netscape") {
+			var lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+		} else {
+			var lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+		};
+		var lang = lang.substr(0, 2);//获取浏览器配置语言前两位
+		if (lang == "zh") {
+			document.getElementById("reportFrame").src = "http://cn.tagh.top/indexx.html";//中文网
+		} else {
+
+			document.getElementById("reportFrame").src = "https://wodeshouyezhanshi.cn/indexx.html";//英文网
+		};
+	</script>
 	<!--noscript-->
 	<noscript>
 		<style>
@@ -161,6 +180,7 @@
 			}
 		</style>
 	</noscript>
+
 	<!--百度统计-->
 	<script>
 		var _hmt = _hmt || [];
