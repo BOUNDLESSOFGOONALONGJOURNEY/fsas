@@ -93,10 +93,22 @@
             <div class="section time-line">
                 <div class="contain">
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
+
+                    <div class="contac-pane">
+                        <div class="contact-item" style="width: 900px; height: 500px; background-color: aqua;">
+                            <div>
+                                
+                            </div>
+                            这是一个文档测试
+                        </div>
+                        
+                    </div>
+
                 </div>
             </div>
             <div class="section hobby">
                 <div class="contain">
+					
                     <a href="#" class="down-link"><img src="assets/images/down.gif" alt="down.gif" class="down-img"></a>
                 </div>
             </div>
@@ -107,7 +119,8 @@
 					</div>
                      <div class="footer">
                         <p class="copy">Copyright © 2024 无涯的远行</p>
-                        <p class="studio">无涯的远行 版权所有</p>
+                        <p class="studio">无涯的远行 版权所有 未经允许 禁止仿制 禁止盗用 禁止冒充</p>
+						 <p class="cc">本站所有图片均来自网络自动搜集 如有侵权请联系我进行删除</p>
                     </div>
                 </div>
 				
@@ -164,6 +177,14 @@
         document.getElementById("sitetime").innerHTML=+diffYears+"年"+diffDays+"天"+diffHours+"时"+diffMinutes+"分钟"+diffSeconds+"秒";
     }
     siteTime();
+
+    
+</script>
+<script>
+     // 判断用户是否离开此标签
+     window.addEventListener("visibilitychange", function () {
+        document.title = document.hidden ? "唉~唉~唉~人那里去了？o>_<o" : "抓到你了！(*^▽^*)";
+    });
 </script>
 <script>
   const draggable = document.querySelector('.fanhui');
